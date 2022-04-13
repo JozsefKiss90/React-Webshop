@@ -1,0 +1,48 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.arrows {
+  background-color: transparent ;
+  position: absolute;
+  cursor: pointer;
+}
+
+.arrows.next {
+  background-color: transparent ;
+  position: absolute;
+  cursor: pointer;
+  right: 0%;
+  top: 30%;
+  z-index: 999;
+}
+
+.arrows.prev {
+  background-color: transparent ;
+  position: absolute;
+  cursor: pointer;
+  left: 0%;
+  top: 30%;
+  z-index: 999;
+}
+
+.slick-dots {
+  position: relative;
+  top: 210px;
+  display: flex;
+  justify-content: center;
+  left: 5px;
+}
+
+
+.slick-dots li button:before {
+  background-color: #000000;
+  position: absolute;
+  bottom: 15px;
+  height: 24px;
+  width: 40px;
+  overflow:hidden; 
+  }
+
+  .slick-dots li {
+    padding: 15px;
+}

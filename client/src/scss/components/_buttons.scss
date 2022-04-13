@@ -1,0 +1,360 @@
+@import "../_custom.scss";
+
+.btn-rounded.hide {
+    position: relative;
+    padding: 0.5rem 1.5rem;
+    font-weight: 700;
+    font-size: large;
+    margin: 0;
+    border: 0.1rem solid rgb(34, 34, 34);
+    background-color: rgb(41, 41, 41);
+    color: #f8f9fa;
+    width: 9rem;
+    border-radius: 500px;
+    opacity: 0;
+    @include media-breakpoint-down(lg) {
+        padding: 0.25rem 0.5rem;
+        height: 2.5rem;
+        width: 6rem;
+        font-size: medium;
+        border-radius: 100px;
+    }
+}
+
+.btn-rounded {
+    position: relative;
+    padding: 0.5rem 1.5rem;
+    font-weight: 700;
+    font-size: large;
+    margin: 0;
+    border: 0.1rem solid rgb(34, 34, 34);
+    background-color: rgb(41, 41, 41);
+    color: #f8f9fa;
+    width: 9rem;
+    border-radius: 500px;
+    opacity: 1;
+    transition: opacity 1.2s ease-in,;
+    box-shadow: inset 0 0 0 0 #ffffff;
+    @include media-breakpoint-down(lg) {
+        padding: 0.25rem 0.5rem;
+        height: 2.5rem;
+        width: 6rem;
+        font-size: medium;
+        border-radius: 100px;
+    }
+}
+
+.btn-rounded-in {
+    position: relative;
+    padding: 0.5rem 1.5rem;
+    font-weight: 700;
+    font-size: large;
+    margin: 0;
+    border: 0.1rem solid rgb(34, 34, 34);
+    background-color: rgb(41, 41, 41);
+    width: 9rem;
+    border-radius: 500px;
+    opacity: 1;
+    box-shadow: inset 400px 0 0 0 #ffffff;
+    color: black;
+    transition: box-shadow ease-out 1s;
+    @include media-breakpoint-down(lg) {
+        padding: 0.25rem 0.5rem;
+        height: 2.5rem;
+        width: 6rem;
+        font-size: medium;
+        border-radius: 100px;
+    }
+  } 
+
+  .btn-rounded-in-2 {
+    position: relative;
+    padding: 0.5rem 1.5rem;
+    font-weight: 700;
+    font-size: large;
+    margin: 0;
+    border: 0.1rem solid rgb(34, 34, 34);
+    background-color: rgb(41, 41, 41);
+    width: 9rem;
+    border-radius: 500px;
+    opacity: 1;
+    box-shadow: inset 400px 0 0 0 #ffffff;
+    color: black;
+    transition: box-shadow ease-out 1s;
+    @include media-breakpoint-down(lg) {
+        padding: 0.25rem 0.5rem;
+        height: 2.5rem;
+        width: 6rem;
+        font-size: medium;
+        border-radius: 100px;
+    }
+  } 
+
+.btn-rounded-2.hide {
+    position: relative;
+    padding: 0.5rem 1.5rem;
+    font-weight: 700;
+    font-size: large;
+    margin: 0;
+    border: 0.1rem solid rgb(34, 34, 34);
+    background-color: rgb(41, 41, 41);
+    color: #f8f9fa;
+    width: 9rem;
+    border-radius: 500px;
+    opacity: 0;
+    @include media-breakpoint-down(lg) {
+        padding: 0.25rem 0.5rem;
+        height: 2.5rem;
+        width: 6rem;
+        font-size: medium;
+        border-radius: 100px;
+    }
+} 
+
+.btn-rounded-2 {
+    position: relative;
+    padding: 0.5rem 1.5rem;
+    font-weight: 700;
+    font-size: large;
+    margin: 0;
+    border: 0.1rem solid rgb(34, 34, 34);
+    background-color: rgb(41, 41, 41);
+    color: #f8f9fa;
+    width: 9rem;
+    border-radius: 500px;
+    opacity: 1;
+    transition: opacity 1.2s ease-in,;
+    box-shadow: inset 0 0 0 0 #ffffff;
+    @include media-breakpoint-down(lg) {
+        padding: 0.25rem 0.5rem;
+        height: 2.5rem;
+        width: 6rem;
+        font-size: medium;
+        border-radius: 100px;
+    }
+}
+
+.btn-rounded-2:hover {
+    box-shadow: inset 400px 0 0 0 #ffffff;
+    color: black;
+    transition: box-shadow ease-out 0.9s;;
+}
+
+.btn-rounded-in-3 {
+    position: relative;
+    padding: 0.1rem 0.8rem;
+    font-weight: 700;
+    font-size: 1rem;
+    margin: 0;
+    border: 0.1rem solid rgb(34, 34, 34);
+    background-color: rgb(41, 41, 41);
+    width: 6rem;
+    opacity: 1;
+    box-shadow: inset 400px 0 0 0 #ffffff;
+    color: black;
+    transition: box-shadow ease-out 1s;
+  } 
+
+  .btn-rounded-3.hide {
+    position: relative;
+    padding: 0.1rem 0.8rem;
+    font-weight: 700;
+    font-size: 1rem;
+    margin: 0;
+    border: 0.1rem solid rgb(34, 34, 34);
+    background-color: rgb(41, 41, 41);
+    color: #f8f9fa;
+    width: 6rem;
+    opacity: 0;
+}
+
+.btn-rounded-3 {
+    position: relative;
+    padding: 0.1rem 0.8rem;
+    font-weight: 700;
+    font-size: 1rem;
+    margin: 0;
+    border: 0.1rem solid rgb(34, 34, 34);
+    background-color: rgb(41, 41, 41);
+    color: #f8f9fa;
+    width: 6rem;
+    opacity: 1;
+    transition: opacity 1s ease-in,;
+    box-shadow: inset 0 0 0 0 #ffffff;
+}
+
+.chat-button {
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 4rem;
+    background-color: #f8f9fa;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+}
+
+.btn-rounded-4.hide {
+    position: relative;
+    padding: 0.5rem 1.5rem;
+    font-weight: 700;
+    font-size: large;
+    margin: 0;
+    border: 0.1rem solid rgb(34, 34, 34);
+    background-color: rgb(41, 41, 41);
+    color: #f8f9fa;
+    width: 5rem;
+    border-radius: 500px;
+    opacity: 0;
+}
+
+.btn-rounded-4 {
+    position: relative;
+    padding: 0.5rem 1.5rem;
+    font-weight: 700;
+    font-size: large;
+    margin: 0;
+    border: 0.1rem solid rgb(34, 34, 34);
+    background-color: rgb(41, 41, 41);
+    color: #f8f9fa;
+    width: 5rem;
+    border-radius: 500px;
+    opacity: 1;
+    transition: opacity 1.2s ease-in,;
+    box-shadow: inset 0 0 0 0 #ffffff;
+}
+
+.btn-rounded-in-4 {
+    position: relative;
+    padding: 0.5rem 1.5rem;
+    font-weight: 700;
+    font-size: large;
+    margin: 0;
+    border: 0.1rem solid rgb(34, 34, 34);
+    background-color: #f8f9fa;
+    color: rgb(34, 34, 34);
+    width: 5rem;
+    border-radius: 500px;
+    opacity: 1;
+    transition: opacity 1.2s ease-in,;
+    box-shadow: inset 0 0 0 0 #ffffff;
+}
+
+.btn-rounded-in-5 {
+    position: relative;
+    padding: 0.5rem 1.5rem;
+    font-weight: 700;
+    font-size: large;
+    margin: 0;
+    border: 0.1rem solid rgb(34, 34, 34);
+    background-color: rgb(41, 41, 41);
+    width: 9rem;
+    border-radius: 500px;
+    opacity: 1;
+    box-shadow: inset 400px 0 0 0 #ffffff;
+    color: black;
+    transition: box-shadow ease-out 1s;
+  } 
+
+.btn-rounded-5.hide {
+    position: relative;
+    padding: 0.5rem 1.5rem;
+    font-weight: 700;
+    font-size: large;
+    margin: 0;
+    border: 0.1rem solid rgb(34, 34, 34);
+    background-color: rgb(41, 41, 41);
+    color: #f8f9fa;
+    width: 9rem;
+    border-radius: 500px;
+    opacity: 0;
+} 
+
+.btn-rounded-5 {
+    position: relative;
+    padding: 0.5rem 1.5rem;
+    font-weight: 700;
+    font-size: large;
+    margin: 0;
+    border: 0.1rem solid rgb(34, 34, 34);
+    background-color: rgb(41, 41, 41);
+    color: #f8f9fa;
+    width: 9rem;
+    border-radius: 500px;
+    opacity: 1;
+    transition: opacity 1.2s ease-in,;
+    box-shadow: inset 0 0 0 0 #ffffff;
+}
+
+.btn-rounded-in-6 {
+    position: relative;
+    padding: 0.5rem 0;
+    font-weight: 400;
+    font-size: 1rem;
+    margin: 0;
+    color: black;
+    width: 8rem;
+    opacity: 1;
+    border: 1px solid #f8f9fa;
+    background-color: #f8f9fa;
+    color: black;
+    margin-left: 10px;
+  } 
+
+.btn-rounded-6 {
+    position: relative;
+    padding: 0.5rem 0;
+    font-weight: 700;
+    font-size: 1rem;
+    margin: 0;
+    border: 0.1rem solid rgb(34, 34, 34);
+    background-color: rgb(41, 41, 41);
+    color: #f8f9fa;
+    width: 8rem;
+    opacity: 1;
+    transition: opacity 1s ease-in,;
+    box-shadow: inset 0 0 0 0 #ffffff;
+}
+
+.btn-rounded-7 {
+    position: relative;
+    padding: 0.6rem 0.8rem;
+    font-weight: 700;
+    font-size: 1rem;
+    margin: 0;
+    border: 0.1rem solid rgb(34, 34, 34);
+    background-color: rgb(41, 41, 41);
+    color: #f8f9fa;
+    width: 12rem;
+    opacity: 1;
+    transition: opacity 1s ease-in,;
+    box-shadow: inset 0 0 0 0 #ffffff;
+}
+
+.btn-rounded-in-7 {
+    position: relative;
+    padding: 0.6rem 0.8rem;
+    font-weight: 400;
+    font-size: 1rem;
+    margin: 0;
+    color: black;
+    width: 12rem;
+    opacity: 1;
+    border: 1px solid #f8f9fa;
+    background-color: #f8f9fa;
+    color: black;
+    margin-left: 10px;
+  } 
+
+  .btn-rounded-in-8 {
+    position: relative;
+    padding: 0.6rem;
+    font-weight: 400;
+    font-size: 1rem;
+    margin: 0;
+    color: black;
+    width: 11rem;
+    opacity: 1;
+    border: 1px solid #f8f9fa;
+    background-color: #f8f9fa;
+    color: black;
+  } 

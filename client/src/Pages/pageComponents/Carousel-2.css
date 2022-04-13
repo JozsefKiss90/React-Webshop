@@ -1,0 +1,30 @@
+.shop-image {
+    margin-top: 3rem;
+    cursor: pointer;
+    height: 225px;
+    width: 225px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+
+  .arrows {
+    background-color: transparent ;
+    position: absolute;
+    cursor: pointer;
+  }
+
+  .arrows.next {
+    background-color: transparent ;
+    position: absolute;
+    cursor: pointer;
+    right: 0%;
+    top: 30%;
+  }
+
+  .arrows.prev {
+    background-color: transparent ;
+    position: absolute;
+    cursor: pointer;
+    left: 0%;
+    top: 30%;
+  }

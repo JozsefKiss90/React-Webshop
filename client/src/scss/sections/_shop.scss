@@ -1,0 +1,87 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.shop-title {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    @include media-breakpoint-down(lg) {
+        padding-top: 1rem;
+    }
+}
+
+.shop-title-2 { 
+    display: flex;
+    justify-content: center;
+}
+
+.shop-items {
+    display: flex;
+    justify-content: center;
+    height: 18rem;
+    background-color: #f8f9fa;
+    @include media-breakpoint-down(lg) {
+        height: 22rem;
+    }
+}
+
+.shop-items-2 {
+    display: flex;
+    justify-content: center;
+    height: 18rem;
+    background-color: #f8f9fa;
+    align-items: center;
+    @include media-breakpoint-down(lg) {
+        height: 12rem;
+    }
+}
+
+.shop-image {
+    margin-top: 3rem;
+    cursor: pointer;
+    height: 225px;
+    width: 225px;
+    transition: all 0.3s;
+    @include media-breakpoint-down(lg) {
+        margin-top: 0rem;
+        height: 175px;
+        width: 175px;
+    }
+}
+
+.mask {
+    margin-top: 0.5rem;
+    cursor: pointer;
+    height: 350px;
+    width: 350px;
+    transition: all 0.3s;
+    @include media-breakpoint-down(lg) {
+        height: 220px;
+        width: 220px;
+    }
+}
+
+.hat {
+    margin-top: 2rem;
+    cursor: pointer;
+    height: 275px;
+    width: 275px;
+    transition: all 0.3s;
+    @include media-breakpoint-down(lg) {
+        height: 200px;
+        width: 200px;
+        margin-top: 0;
+    }
+}
+
+.mobile {
+    margin-top: 1rem;
+    cursor: pointer;
+    height: 250px;
+    width: 250px;
+    transition: all 0.3s;
+    @include media-breakpoint-down(lg) {
+        height: 180px;
+        width: 180px;
+    }
+}
